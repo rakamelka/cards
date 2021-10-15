@@ -3,6 +3,7 @@ let page = document.querySelector('.container');
 for (let i = 0; i < 25; i++) {
     let newCard = document.createElement('div');
     newCard.classList.add('card');
+    newCard.style.backgroundColor = "rgb(20, 20, 20)";
     newCard.dataset.color = colorSet();
     page.append(newCard);
     newCard.addEventListener("click", colorChange);
