@@ -19,7 +19,6 @@ body {
     margin: 5px;
     width: 100px;
     height: 100px;
-    background-color: rgb(20, 20, 20);
     box-shadow: black 1px 4px 5px;
     border-radius: 5%;
 }
