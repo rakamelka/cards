@@ -7,11 +7,11 @@ body {
 
 .container {
     display: block;
-    width: 550px;
-    height: 567px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 440px;
+    height: 440px;
+    margin: auto;
     padding: 10px;
+    background-color: rgb(22, 22, 22);
 }
 
 .card {
@@ -21,4 +21,10 @@ body {
     height: 100px;
     box-shadow: black 1px 4px 5px;
     border-radius: 5%;
+}
+
+p{
+    color:cadetblue;
+    font-size: 48px;
+    font-family: serif;
 }
