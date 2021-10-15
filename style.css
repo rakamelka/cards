@@ -5,13 +5,30 @@ body {
     position: relative;
 }
 
+.main {
+    display: flex;
+}
+.attempts{
+    margin-top: 20px;
+    margin-right: auto;
+}
+
 .container {
-    display: block;
+    width: 250px;
+    height: 460px;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 20px;
+}
+.container2 {
+    margin-top: 20px;
     width: 440px;
     height: 440px;
-    margin: auto;
     padding: 10px;
-    background-color: rgb(22, 22, 22);
+}
+
+.opacity {
+    transition: ease-in 0.5s;
 }
 
 .card {
@@ -24,7 +41,50 @@ body {
 }
 
 p{
-    color:cadetblue;
-    font-size: 48px;
-    font-family: serif;
+    margin: 10px;
+    color:rgb(231, 254, 255);
+    font-size: 24px;
+    font-family: monospace;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    width: 140px;
+    height: 50px;
+    background-color: rgb(59, 200, 255);
+    color: white;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: auto;
+}
+
+.play {
+    margin-top: 40px;
+}
+
+.easy {
+    margin-top: 30px;
+    background-color: rgb(154, 228, 5);
+}
+
+.hard {
+    background-color: rgb(255, 31, 31);
+}
+
+.insane {
+    background-color: rgb(255, 0, 255);
+}
+
+.pressed {
+    box-shadow: rgb(251, 255, 1)  0px 0px 10px;
+    color: rgb(73, 73, 73);
+}
+
+.hidden {
+    display: none;
 }

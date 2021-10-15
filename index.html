@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,23 @@
     <link href="style.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>   
-    <div class="container">
-        <div class="start">
-            <p>Выбери сложность и нажми начать</p>
-            <input class="input" type="radio" name="difficulty" value="easy" id="easy">
-            <label for="easy">Easy</label>
-            <input class="input" type="radio" name="difficulty" value="easy" id="hard">
-            <label for="easy">Hard</label>
-            <input class="input" type="radio" name="difficulty" value="easy" id="insane">
-            <label for="easy">Insane</label>
-            <button class="play" type="button">Начать</button>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <p class="hide">Выбери сложность</p>
+            <p class="hide">и нажми начать</p>
+            <button class="difficulty easy button pressed hide" type="button">Easy</button>
+            <button class="difficulty hard button hide" type="button">Hard</button>
+            <button class="difficulty insane button hide" type="button">Insane</button>
+            <button class="play button hide" type="button">Начать</button>
+
         </div>
+        <div class="container2"></div>
+        <div class="attempts"><p>Число попыток: </p><p class="count">0</p></div>
     </div>
     <script src="app.js"></script>
-    
+
 </body>
+
 </html>
