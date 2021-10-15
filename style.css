@@ -22,7 +22,7 @@ body {
 }
 .container2 {
     margin-top: 20px;
-    width: 440px;
+    min-width: 440px;
     height: 440px;
     padding: 10px;
 }
