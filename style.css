@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(36, 35, 35);
+    position: relative;
+}
+
+.container {
+    display: block;
+    width: 550px;
+    height: 567px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.card {
+    display:inline-block;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(20, 20, 20);
+    box-shadow: black 1px 4px 5px;
+    border-radius: 5%;
+}
