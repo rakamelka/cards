@@ -15,6 +15,7 @@ let attempts = document.querySelector('.count');
 
 startBut.addEventListener('click', () => {
     gameStart();
+    startBut.disabled = true;
 })
 
 for (let difBut of difButtons) {
